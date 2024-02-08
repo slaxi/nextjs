@@ -1,0 +1,10 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 1500px;
+    background-color: teal;
+    color: var(--text-color);
+    gap: 10px;
+}

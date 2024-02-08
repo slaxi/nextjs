@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    margin: 20px;
+    width: 300px; /* Možete prilagoditi po potrebi */
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .content {
+    padding: 15px;
+  }
+  
+  .content h2 {
+    margin: 0 0 10px;
+    font-size: 18px; /* Možete prilagoditi po potrebi */
+  }
+  
+  .content p {
+    font-size: 16px; /* Možete prilagoditi po potrebi */
+    color: #666;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #007BFF; /* Promenite boju dugmeta ako želite */
+    border: none;
+    border-radius: 50px; /* Ovo daje zaobljene ivice */
+    transition: all 0.3s; /* Ovo omogućava glatku animaciju na hover */
+  }
+  
+  .button:hover {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Ovo daje blagu senku na hover */
+    background-color: #0069D9; /* Promenite boju dugmeta na hover ako želite */
+    color: #ffffff;
+  }

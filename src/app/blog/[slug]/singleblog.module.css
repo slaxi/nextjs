@@ -1,0 +1,37 @@
+.blogContainer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: auto;
+    gap: 30px;
+}
+
+.imageContainer {
+    position: relative;
+}
+
+.imageContainer img {
+    /* width: 100%; */
+    height: auto;
+    margin-right: 20px;
+    object-fit: cover;
+    position: relative !important;
+}
+
+.infoContainer {
+    width: 50%;
+}
+
+.author, .date {
+   font-size: 18px;
+   margin-bottom: 10px;
+}
+
+.title {
+   font-size: 24px;
+   margin-bottom: 20px;
+}
+
+.description {
+   font-size: 16px;
+}
